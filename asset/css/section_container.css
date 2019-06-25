@@ -152,31 +152,35 @@ main.section-container{
     }
     
     ul.geek_news_lists li.geek_news_list{
-    margin-bottom: 15px;
+      /* border: 1px solid black; */
+         margin-bottom: 15px;
     text-decoration: none;
-    margin-left: 25%;
-    width: 800px;
-    /* border: 1px solid black */
+    margin-left: 5%;
+    width: 100%;
     cursor: pointer;
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding-bottom: 5px;
-    
     }
     ul.geek_news_lists li a{
     text-decoration: none;
     color: var(--color-main);
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
        
     }
     ul.geek_news_lists li span{
-    color: black;
-    font-size: 15px;
-    /* border: 1px solid black; */
-    width: 100%;
-    /* text-align: left; */
-    margin-top: 5px;
+      color: black;
+      font-size: 15px;
+      width: 100%;
+      margin-top: 5px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding-left: 25%;
     
     
        
@@ -231,7 +235,7 @@ main.section-container{
 
     .open_apply_input_row .icon{
       font-size: 35px;
-      padding-left: 15%;
+      padding-left: 10%;
       display: flex;
       justify-content: center;
       align-items: center;

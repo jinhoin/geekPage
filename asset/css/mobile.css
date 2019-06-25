@@ -51,8 +51,36 @@
     }
      ul.geek_news_lists{
        width: auto;
+       display: grid;
+       grid-template-columns: 500px ;
+       font-size:  15px;
+    }
+   
+    ul.geek_news_lists li.geek_news_list{
+        margin-bottom: 15px;
+    text-decoration: none;
+    margin-left: 5%;
+    width: 500px;
+    /* border: 1px solid black; */
+    cursor: pointer;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    }
+    .open_apply{
+        width: 90vw;
+    }
+    .open_apply label{
+        font-size: 4vw;
     }
     .open_apply_input_row{
-        width: 70vw;
+        width: 80vw;
+        
+    }
+    .geek_intro_text2{
+        width: 80vw;
     }
 }
