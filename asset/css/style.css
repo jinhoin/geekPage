@@ -1,0 +1,43 @@
+@import "reset.css";
+@import "scroll.css";
+@import "header.css";
+@import "./section_container.css";
+@import "./nav.css";
+@import "./mobile.css";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+
+
+html {
+    --color-main: #ff773d;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+#wrapper{
+    /* padding-top: 245px; */
+    background-color: #FAF7F1;
+     -webkit-overflow-scrolling: touch;
+      position:relative;
+    height: 100%;
+      color: var(--color-main);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+
+
+    ::-webkit-input-placeholder { /* Chrome */
+        color: var(--color-main);
+    }
+      :-ms-input-placeholder { /* IE 10+ */
+        color: var(--color-main);
+    }
+      ::-moz-placeholder { /* Firefox 19+ */
+        color: var(--color-main);
+        opacity: 1;
+      }
+      :-moz-placeholder { /* Firefox 4 - 18 */
+        color: var(--color-main);
+        opacity: 1;
+      }

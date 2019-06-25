@@ -1,0 +1,284 @@
+main.section-container{
+    width: 100%;
+   /* height: auto; */
+   
+   scroll-behavior: smooth;
+   /* border: 1px solid black; */
+   /* padding-top: 15%; */
+   
+}
+
+ section{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   scroll-behavior: smooth;
+   height: 100vh;
+   overflow: hidden;
+   padding-top : 25%;
+ 
+ }
+ .geek_news {
+  /* width: inherit;
+   height: inherit; */
+   /* border: 1px solid black; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 10px;
+   padding-top: 10px;
+ }
+ /* geek intro */
+ .geek_intro_text1{
+   width: inherit;
+   height: auto;
+   /* border: 1px solid black; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   color: var(--color-main);
+  }
+  .geek_intro_text1 span:first-child{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .geek_intro_text1 span:last-child{
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+ .geek_intro_buttons{
+   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 300px;
+  margin-top: 20px;
+
+   /* border: 1px solid black; */
+
+ }
+ .geek_intro_buttons div{
+   width: 100px;
+   height: 40px;
+   border: solid 1px #FE791D;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: var(--color-main);
+   cursor: pointer;
+ }
+
+ .geek_intro_text2{
+   width: inherit;
+   height: auto;
+   /* border: 1px solid black; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #908E8B;
+   padding-bottom: 10px;
+   padding-top: 10px;
+  }
+
+  .geek_intro_text2 span:first-child{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .geek_intro_text2 span:last-child{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .geek_intro_text3{
+   width: inherit;
+   height: auto;
+   /* border: 1px solid black; */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+   align-items: flex-start;
+   color: #313131;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   /* margin-bottom: 20px; */
+
+  }
+  .geek_intro_text3 span{
+    margin-bottom: 10px;
+    font-size: 18px;
+
+  }
+
+  .geek_intro_text3 .title{
+    color: var(--color-main);
+    font-size: 18px; 
+    line-height: 1.2;
+  }
+  .geek_intro_text3 .desc{
+    font-size:  12px;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 20px; */
+  }
+
+
+
+
+  /*  */
+  ul.geek_news_lists {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* padding-top: 30vw; */
+    /* border : 1px solid black; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    }
+    ul.geek_news_lists span.title{
+    margin-left: 25%;
+    margin-bottom: 20px;
+    font-size: 23px;
+    color: var(--color-main);
+    padding-top: 100px;
+    }
+    
+    ul.geek_news_lists li.geek_news_list{
+    margin-bottom: 15px;
+    text-decoration: none;
+    margin-left: 25%;
+    width: 800px;
+    /* border: 1px solid black */
+    cursor: pointer;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5px;
+    
+    }
+    ul.geek_news_lists li a{
+    text-decoration: none;
+    color: var(--color-main);
+       
+    }
+    ul.geek_news_lists li span{
+    color: black;
+    font-size: 15px;
+    /* border: 1px solid black; */
+    width: 100%;
+    /* text-align: left; */
+    margin-top: 5px;
+    
+    
+       
+    }
+
+
+    .apply_univ{
+       display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   color: var(--color-main);
+    }
+    .apply_univ_title{
+      font-size: 20px;
+      width: 60%;
+      /* border: 1px solid black; */
+      padding-left: 20%;
+      margin-bottom: 10px;
+    }
+
+
+    .geek_open_apply{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      color: var(--color-main);
+
+    }
+    .geek_open_apply_title{
+      font-size: 25px;
+      color: var(--color-main);
+      width: 30%;      
+      margin-bottom: 20px;
+      /* border: 1px solid black; */
+    }
+
+    .open_apply_input_row{
+      display: flex;
+      width: 28vw;
+      height: 40px;
+      justify-content: space-around;
+      /* border : 1px solid black; */
+      align-items: center;
+      margin-bottom: 20px;
+      
+    }
+
+    .open_apply_input_row .icon{
+      font-size: 35px;
+      padding-left: 15%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* border: 1px solid black; */
+      width: 10%;
+      height: 100%;
+    }
+    .open_apply_input_row input{
+      width: 70%;
+      height: 100%;
+      border: 3px solid var(--color-main);
+      color: var(--color-main);
+    }
+
+    .apply_univ_name{
+      font-size: 16px;
+      width: 60%;
+      /* border: 1px solid black; */
+      padding-left: 23%;
+      margin-bottom: 25px;
+      line-height: 1.3;
+      
+
+    }
+
+    .open_apply_checkbox_container{
+      width: 100%;
+      height: 20%;
+      display: flex;
+     /* border: 1px solid black; */
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+
+  }
+div.open_submit_row{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+
+}
+
+  button.open_submit{
+    color: #ffff;
+    background-color: var(--color-main);
+    width: 130px;
+    height: 40px;;
+  }

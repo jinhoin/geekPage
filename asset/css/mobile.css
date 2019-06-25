@@ -1,0 +1,58 @@
+@media screen and (min-width:412px) and (max-width:1024px)
+{    
+    nav.geek_nav{
+     display: none;
+       }  
+    header.geek_header{
+        display: none;
+    }
+
+    header.mobile_nav{
+        width: 100%;
+        position: fixed;
+        background-color: #34495e;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100vw;
+        height: 15vw;
+        z-index: 99;
+    }
+    .geek_page_list{
+        display: flex;
+        width: 100vw;
+        height: 8vw;
+        align-self: flex-end;
+        display: flex;
+        align-items: flex-end;
+        font-size: 14px;
+        /* background-color: blue; */
+
+    
+    }
+
+    li.geek_page_move{
+        width: 25%;
+        border : 0px solid #ffff;
+    }
+    .mobile_nav_title{
+        /* font-size: 10px; */
+        align-self: start;
+        width: 100vw;
+        height: 8vw;
+        padding-left: 5vw;
+    }
+ 
+    .geek_intro_text3 {
+        width: 80vw;
+    }
+     ul.geek_news_lists{
+       width: auto;
+    }
+    .open_apply_input_row{
+        width: 70vw;
+    }
+}

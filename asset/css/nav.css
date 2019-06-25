@@ -1,0 +1,67 @@
+nav.geek_nav{
+    top:  15%;
+    position: fixed;
+    right: 8%;
+    font-size: 18px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+
+   }
+   .mobile_nav{
+       display: none;
+  
+   }
+   nav a.geek_fack_link{
+     width: inherit;
+     height: 30px;
+     /* border: 1px solid black; */
+     letter-spacing: 1px;
+     border: 1px solid #FE791D;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 15px;
+     cursor: pointer;
+     color: #ffceab;
+     
+     /* opacity: 0.7; */
+
+
+
+   }
+   ul.geek_page_list{
+     /* width: inherit;
+     height: inherit; */
+     /* overflow-y: scroll; */
+      /* border: 1px solid black; */
+     /* overflow: hidden; */
+   }
+   li.geek_page_move{
+     border-right: 2px solid #FE791D;
+     height: 30px;
+     display: flex;
+     justify-content: flex-end;
+     opacity: 0.4;
+     cursor: pointer;
+     text-decoration: none;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    li.geek_page_move a{
+      text-decoration: none;
+      color: var(--color-main);
+
+      
+    }
+  .geek_page_move.active {
+    font-weight: bold;
+    opacity: 1.0;
+    color: var(--color-main);
+}
+
